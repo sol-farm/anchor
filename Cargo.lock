@@ -128,7 +128,7 @@ dependencies = [
 
 [[package]]
 name = "anchor-cli"
-version = "0.6.0"
+version = "0.6.1"
 dependencies = [
  "anchor-client",
  "anchor-lang",
@@ -154,7 +154,7 @@ dependencies = [
 
 [[package]]
 name = "anchor-client"
-version = "0.6.0"
+version = "0.6.1"
 dependencies = [
  "anchor-lang",
  "anyhow",
@@ -178,7 +178,7 @@ dependencies = [
 
 [[package]]
 name = "anchor-lang"
-version = "0.6.0"
+version = "0.6.1"
 dependencies = [
  "anchor-attribute-access-control",
  "anchor-attribute-account",
@@ -197,7 +197,7 @@ dependencies = [
 
 [[package]]
 name = "anchor-spl"
-version = "0.6.0"
+version = "0.6.1"
 dependencies = [
  "anchor-lang",
  "lazy_static",
