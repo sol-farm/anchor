@@ -1551,7 +1551,7 @@ fn set_workspace_dir_or_exit() {
 
 #[cfg(feature = "dev")]
 fn airdrop(url: Option<String>) -> Result<()> {
-    let url = url.unwrap_or_else(|| "https://devnet.solana.com".to_string());
+    let url = url.unwrap_or_else(|| "https://api.devnet.solana.com".to_string());
     loop {
         let exit = std::process::Command::new("solana")
             .arg("airdrop")
@@ -1574,8 +1574,8 @@ fn cluster(_cmd: ClusterCommand) -> Result<()> {
     println!("Cluster Endpoints:\n");
     println!("* Mainnet - https://solana-api.projectserum.com");
     println!("* Mainnet - https://api.mainnet-beta.solana.com");
-    println!("* Devnet  - https://devnet.solana.com");
-    println!("* Testnet - https://testnet.solana.com");
+    println!("* Devnet  - https://api.devnet.solana.com");
+    println!("* Testnet - https://api.testnet.solana.com");
     Ok(())
 }
 
